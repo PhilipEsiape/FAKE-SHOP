@@ -3,20 +3,12 @@
   padding: 0;
   margin: 0;
 }
-
 .ui.cards > .card > .image{
   height: 250px;
   padding:20px;
   background: #fff;
-  margin: auto;
+  margin: 20px;
 }
-
-.ui.cards > .card > img {
-  height: 100%;
-  max-width: 100%;
-  width: auto;
-}
-
 .ui.cards > .card > .content > .header {
   height: 48px;
   overflow: hidden;
@@ -44,6 +36,10 @@
 .ui.menu.fixed {
   height: 60px;
   padding-top: 15px;
+}
+
+.ui.grid.container {
+margin-top: 45px;
 }
 
 .ui.grid > .row {
@@ -90,8 +86,9 @@
 .ui.placeholder.segment .column textarea,
 .ui.placeholder.segment .column > .ui.input{
   background-color: #ff3e6c;
-  border: 1px solid #ff3e6c;
+  border: 2px solid #ff3e6c;
   color: #fff;
   font-size: 18px;
-  margin-left: 0;
+  margin-left: 2px;
 }
+
